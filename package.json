@@ -1,0 +1,31 @@
+{
+  "name": "apollo-federation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-content-service": "ts-node content",
+    "start-review-service": "ts-node review",
+    "start-gateway": "ts-node gateway"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigenthomas-orx/apollo-federation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gigenthomas-orx/apollo-federation/issues"
+  },
+  "homepage": "https://github.com/gigenthomas-orx/apollo-federation#readme",
+  "dependencies": {
+    "@apollo/federation": "^0.25.1",
+    "@apollo/gateway": "^0.29.1",
+    "apollo-server": "^2.25.1",
+    "graphql": "^15.5.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
